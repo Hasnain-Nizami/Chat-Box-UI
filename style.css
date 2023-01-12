@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-color: rgb(76, 66, 133);
+    min-height: 80vh;
+    max-height: 80vh;
+    max-width: 80%;
+    min-width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    background-color:  rgb(56, 46, 124);
+    position: relative;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav img{
+    width: 70px;
+    border-radius: 100%;
+    height: 70px;
+    margin-left: 20px;
+}
+.menu{
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.phone{
+    position: absolute;
+    font-size: 1.1rem;
+    left: 350px;
+    margin-top: 20px;
+    color: #fff;
+}
+.camera{
+   position: absolute; 
+   left: 310px;
+   margin-top: 20px;
+   font-size: 1.1rem;
+   color: #fff;
+}
+.text{
+    position: absolute;
+    left: 105px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.image img{
+    width: 45px;
+    border-radius: 100%;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+.imagetext p{
+    background-color: rgb(130, 205, 235);
+    width: 11rem;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.imagetext span{
+    font-size: 0.6rem;
+    color: #fff;
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}.flex1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: -1px;
+    flex-wrap: wrap;
+}
+.imagetext1 p{
+    background-color: rgb(130, 205, 235);
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.imagetext1 span{
+    font-size: 0.6rem;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.imagetext2 p{
+    background-color: rgb(130, 205, 235);
+    width: 28vw;
+    height: 2.5rem;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+.imagetext2 span{
+    font-size: 0.6rem;
+    color: #fff;
+    margin-left: 235px;
+}
+.imagetext3 p{
+    background-color: rgb(130, 205, 235);
+    width: 12vw;
+    height: 2.5rem;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+.imagetext3 span{
+    color: #fff;
+    font-size: 0.6rem;
+    padding-left: 70px;
+}
+.image1 img{
+    width: 45px;
+    border-radius: 100%;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.input1{
+    display: flex;
+    justify-content: center;   
+    height: 19vh;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.input1 input{
+    width: 77vw;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.input1 input:focus{
+    outline: none;
+    background-color:rgba(0, 0, 0, 0.7);
+    color: white;
+    
+}
